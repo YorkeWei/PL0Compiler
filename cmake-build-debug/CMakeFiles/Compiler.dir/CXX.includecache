@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/interpreter.hpp
+iostream
+-
+string
+-
+cstdio
+-
+
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/lex_lsa_ana.hpp
+iostream
+-
+fstream
+-
+string
+-
+cstdio
+-
+queue
+-
+
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/main.cpp
+word_ana.hpp
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/word_ana.hpp
+lex_lsa_ana.hpp
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/lex_lsa_ana.hpp
+interpreter.hpp
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/interpreter.hpp
+
+C:/Users/wzy/Documents/wzy_homework/Compiler/Compiler/word_ana.hpp
+iostream
+-
+fstream
+-
+string
+-
+cstdio
+-
+
